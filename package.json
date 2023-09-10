@@ -1,0 +1,23 @@
+{
+	"name": "e2etestingonfakeecommercewebsite",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx cypress open",
+		"test-ci": "npx cypress run --browser chrome"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pinkmuli/e2eTestingOnFakeEcommerceWebsite.git"
+	},
+	"author": "Jenn Kim",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pinkmuli/e2eTestingOnFakeEcommerceWebsite/issues"
+	},
+	"homepage": "https://github.com/pinkmuli/e2eTestingOnFakeEcommerceWebsite#readme",
+	"devDependencies": {
+		"cypress": "^13.1.0"
+	}
+}
